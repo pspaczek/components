@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "0.0.1-alpha.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pspaczek/components"
+  },
+  "bugs": {
+    "url": "https://github.com/pspaczek/components/issues"
+  },
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
